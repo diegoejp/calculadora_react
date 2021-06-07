@@ -6,6 +6,7 @@ import App from './App';
 
 
 let myDiv = document.querySelector("#root");
-myDiv.classList.add("container");
+myDiv.classList.add("container-fluid");
+myDiv.classList.add("col-6");
 
-ReactDOM.render(<App name="Diego"/>, document.querySelector('#root'));
+ReactDOM.render(<App/>, document.querySelector('#root'));
