@@ -7,7 +7,10 @@ import {faHistory} from "@fortawesome/free-solid-svg-icons";
 const Tipo = (()=>{
     return(
         
-        <div className="row d-flex justify-content-between" >
+        <div className="row d-flex justify-content-between p-1" 
+        style={{
+            background : "grey"
+        }}>
             <div className="col-6">
                 <span >Estándar</span>
                 <span className="m-1"><FontAwesomeIcon icon={faBars}/></span>

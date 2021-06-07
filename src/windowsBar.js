@@ -9,7 +9,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const Bar = (()=>{
     return (
         <div className="row">
-            <div className="col-12 d-flex justify-content-between mb-2">
+            <div className="col-12 d-flex justify-content-between p-1"
+            style={{
+                background : "grey"
+            }}>
             <span className="fw-bold">Calculadora</span>
             <div>
                 <span className="m-2"><FontAwesomeIcon icon={faWindowMinimize}/></span>

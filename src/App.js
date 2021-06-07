@@ -4,6 +4,7 @@ import Bar from "./windowsBar";
 import Tipo from "./tipoC"
 import Output from "./Output";
 import Botones from "./botones.js"
+import "./output.css"
 
 const App = () => {
     return (
