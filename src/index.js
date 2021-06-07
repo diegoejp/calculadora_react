@@ -8,5 +8,6 @@ import App from './App';
 let myDiv = document.querySelector("#root");
 myDiv.classList.add("container-fluid");
 myDiv.classList.add("col-6");
+myDiv.classList.add("col-md-3");
 
 ReactDOM.render(<App/>, document.querySelector('#root'));
